@@ -12,8 +12,16 @@ class App < Sinatra::Base
 		erb :goodbye
 	end
 
-	get '/date' do
-		erb :date
+	get '/cats' do
+		erb :cats
+	end
+
+	get '/dogs' do
+		erb :dogs
+	end
+
+	get '/music' do
+		erb :music
 	end
 
 end
