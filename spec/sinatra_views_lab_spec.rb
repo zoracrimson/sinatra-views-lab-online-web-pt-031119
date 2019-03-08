@@ -1,5 +1,5 @@
 describe App do
-
+  
   describe 'GET /hello' do
     before do
       get '/hello'
